@@ -13,3 +13,12 @@ ENV TERM xterm
 RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
+
+# 機械学習系のライブラリ
+RUN pip install numpy
+RUN pip install pandas
+RUN pip install matplotlib
+RUN pip install networkx
+RUN pip install pyyaml
+RUN pip install xlsxwriter
+RUN pip install tornado
