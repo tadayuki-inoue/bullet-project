@@ -15,3 +15,9 @@
 ## テストコード実行
 ### python work/index.py
 > Hello World!
+
+### python work/sample_pandas.py 
+> name  height
+> 0  taro  hanako
+> 1   178     152
+
