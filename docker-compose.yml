@@ -1,0 +1,10 @@
+version: '3'
+services:
+  project:
+    restart: always
+    build: .
+    container_name: 'project'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./work:/root/work
