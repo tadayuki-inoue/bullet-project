@@ -14,4 +14,4 @@
 
 ## テストコード実行
 ### python work/index.py
->> Hello World!
+> Hello World!
